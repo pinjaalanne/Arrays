@@ -45,8 +45,8 @@ document.getElementById('task9').textContent = numbers.sort((a, b) => b - a);
 
 // Task 10
 // Randomize the numbers array.
-const randomNumbers = numbers[Math.floor(Math.random()*numbers.length)];
-document.getElementById('task10').textContent =  randomNumbers;
+numbers.sort((a,b) => 0.5 - Math.random());
+document.getElementById('task10').textContent =  numbers;
 
 // Task 11
 // Find the largest and smallest value from the numbers array using sort() function.
